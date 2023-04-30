@@ -20,7 +20,7 @@ function RegistrationForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // symulacja wysyłania danych na serwer
+    // symulacja wysyłania danych na serwer`
     setTimeout(() => {
       setIsSubmitted(true);
       setIsEditing(false);
